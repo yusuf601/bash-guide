@@ -41,11 +41,13 @@ Usage:
 export
 
 Example:
+```bash
 $ export
 AWS_HOME=/Users/yourname/.aws
 LANG=en_US.UTF-8
 LC_CTYPE=en_US.UTF-8
 LESS=-R
+```
 
 $ echo $AWS_HOME
 /Users/yourname/.aws
@@ -57,8 +59,10 @@ Usage:
 whatis command_name
 
 Example:
+```bash
 $ whatis bash
 bash (1)             - GNU Bourne-Again SHell
+```
 
 ### c. `whereis`
 Searches for executables, source files, and manual pages using a database built by the system.
@@ -67,8 +71,10 @@ Usage:
 whereis name
 
 Example:
+```bash
 $ whereis php
 /usr/bin/php
+```
 
 ### d. `which`
 Searches for executables in the directories specified by the `PATH` environment variable and prints the full path.
@@ -77,8 +83,10 @@ Usage:
 which program_name
 
 Example:
+```bash
 $ which php
 /c/xampp/php/php
+```
 
 
 ### e. clear
