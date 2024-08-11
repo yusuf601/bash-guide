@@ -1,6 +1,7 @@
 <p align="center">
   <img src="https://cloud.githubusercontent.com/assets/2059754/24601246/753a7f36-1858-11e7-9d6b-7a0e64fb27f7.png" alt="bash logo"/>
-This comprehensive guide provides an introduction to Bash scripting and command-line operations. Whether you're a beginner or an experienced user, this guide offers valuable insights into Bash syntax, shell programming, and useful tricks to enhance your command-line productivity.
+</p>
+<div>This comprehensive guide provides an introduction to Bash scripting and command-line operations. Whether you're a beginner or an experienced user, this guide offers valuable insights into Bash syntax, shell programming, and useful tricks to enhance your command-line productivity.
 
 ## Who is this guide for?
 
@@ -8,8 +9,7 @@ This comprehensive guide provides an introduction to Bash scripting and command-
 - Intermediate users wanting to improve their shell programming skills
 - Advanced users seeking a quick reference or new tricks
 
-Let's dive in and explore the power of Bash!
-</p>
+Let's dive in and explore the power of Bash!</div>
 
 ## Table of Contents
   1. [Basic Operations](#1-basic-operations)  
