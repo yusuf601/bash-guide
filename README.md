@@ -35,54 +35,51 @@ Let's dive in and explore the power of Bash!</div>
 # 1. Basic Operations
 
 ### a. `export`
-Displays all environment variables. If you want to get details of a specific variable, use `echo $VARIABLE_NAME`.  
-```bash
+Displays all environment variables. To see the value of a specific variable, use `echo $VARIABLE_NAME`.
+
+Usage:
 export
-```
+
 Example:
-```bash
 $ export
-AWS_HOME=/Users/adnanadnan/.aws
+AWS_HOME=/Users/yourname/.aws
 LANG=en_US.UTF-8
 LC_CTYPE=en_US.UTF-8
 LESS=-R
 
 $ echo $AWS_HOME
-/Users/adnanadnan/.aws
-```
+/Users/yourname/.aws
 
 ### b. `whatis`
-whatis shows description for user commands, system calls, library functions, and others in manual pages
-```bash
-whatis something
-```
+Shows a brief description for user commands, system calls, library functions, and others found in manual pages.
+
+Usage:
+whatis command_name
+
 Example:
-```bash
 $ whatis bash
 bash (1)             - GNU Bourne-Again SHell
-```
 
 ### c. `whereis`
-whereis searches for executables, source files, and manual pages using a database built by system automatically.
-```bash
+Searches for executables, source files, and manual pages using a database built by the system.
+
+Usage:
 whereis name
-```
+
 Example:
-```bash
 $ whereis php
 /usr/bin/php
-```
 
 ### d. `which`
-which searches for executables in the directories specified by the environment variable PATH. This command will print the full path of the executable(s).
-```bash
-which program_name 
-```
+Searches for executables in the directories specified by the `PATH` environment variable and prints the full path.
+
+Usage:
+which program_name
+
 Example:
-```bash
 $ which php
 /c/xampp/php/php
-```
+
 
 ### e. clear
 Clears content on window.
