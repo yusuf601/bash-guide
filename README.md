@@ -985,7 +985,7 @@ nohup command &
 
 Bash scripting allows you to automate tasks and create powerful command-line tools. This section covers the fundamental concepts of shell programming.
 
-## 2.1. Shebang
+## 2.1.Variables
 
 The first line of a Bash script, known as the "shebang", determines how the script should be executed:
 
