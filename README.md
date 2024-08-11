@@ -146,34 +146,52 @@ The chown command stands for "change owner", and allows you to change the owner 
 chown -options user:group filename
 ```
 
-### d. `cp`
-Copies a file from one location to other.  
+# d. cp
+# Copies a file from one location to another.
+
+# Usage:
 ```bash
 cp filename1 filename2
 ```
-Where `filename1` is the source path to the file and `filename2` is the destination path to the file.
 
-### e. `diff`
-Compares files, and lists their differences.  
+# Where `filename1` is the source file path and `filename2` is the destination file path.
+
+
+# e. diff
+# Compares two files and lists their differences.
+
+# Usage:
 ```bash
 diff filename1 filename2
 ```
 
-### f. `file`
-Determine file type.  
+# f. file
+# Determines the file type.
+
+# Usage:
 ```bash
 file filename
 ```
-Example:
+
+# Example:
 ```bash
 $ file index.html
- index.html: HTML document, ASCII text
+index.html: HTML document, ASCII text
 ```
-### g. `find`
-Find files in directory
+
+
+# g. find
+# Finds files in a directory.
+
+# Usage:
 ```bash
 find directory options pattern
 ```
+
+# Examples:
+```bash
+$ find . -name README.md
+$ find /home/user1 -name '*.png'
 Example:
 ```bash
 $ find . -name README.md
